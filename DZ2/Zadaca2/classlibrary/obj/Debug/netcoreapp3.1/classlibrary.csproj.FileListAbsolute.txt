@@ -1,0 +1,14 @@
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\bin\Debug\netcoreapp3.1\classlibrary.exe
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\bin\Debug\netcoreapp3.1\classlibrary.deps.json
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\bin\Debug\netcoreapp3.1\classlibrary.runtimeconfig.json
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\bin\Debug\netcoreapp3.1\classlibrary.runtimeconfig.dev.json
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\bin\Debug\netcoreapp3.1\classlibrary.dll
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\bin\Debug\netcoreapp3.1\classlibrary.pdb
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.csproj.AssemblyReference.cache
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.AssemblyInfoInputs.cache
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.AssemblyInfo.cs
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.csproj.CoreCompileInputs.cache
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.dll
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.pdb
+C:\Users\Petric\source\repos\Zadaca2\classlibrary\obj\Debug\netcoreapp3.1\classlibrary.genruntimeconfig.cache
