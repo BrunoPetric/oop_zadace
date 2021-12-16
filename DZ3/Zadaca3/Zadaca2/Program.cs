@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using classlibrary;
-namespace Zadaca2
+namespace Zadaca3
 {
     class Program
     {

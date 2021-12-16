@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="ConsoleWeatherUI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\classlibrary\classlibrary.csproj" />
   </ItemGroup>
 
