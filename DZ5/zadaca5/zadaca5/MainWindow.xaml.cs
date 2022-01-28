@@ -34,7 +34,7 @@ namespace zadaca5
             using (WebClient web = new WebClient())
             {
                 WeatherForecast forecast = new WeatherForecast();
-                todayForecast danas = new todayForecast();
+                TodayForecast danas = new TodayForecast();
                 try { 
                 string url = string.Format($"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=4c11edcd1fd895eb8e55e2e57be65222&units=metric");
                 var json = web.DownloadString(url);
@@ -50,7 +50,7 @@ namespace zadaca5
 
                 string url3 = string.Format($"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid=4c11edcd1fd895eb8e55e2e57be65222&units=metric&lang=hr&cnt=8");
                 var jsonDanas = web.DownloadString(url3);
-                danas = JsonConvert.DeserializeObject<todayForecast>(jsonDanas);
+                danas = JsonConvert.DeserializeObject<TodayForecast>(jsonDanas);
                 }
                 catch(Exception e)
                 {
