@@ -4,7 +4,7 @@ using System.Text;
 
 namespace zadaca5
 {
-    public class todayForecast
+    public class TodayForecast
     {
         public List<list> list { get; set; }
     }
