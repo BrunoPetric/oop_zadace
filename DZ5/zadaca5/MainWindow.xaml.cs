@@ -33,6 +33,9 @@ namespace zadaca5
 
             using (WebClient web = new WebClient())
             {
+                WeatherForecast forecast = new WeatherForecast();
+                todayForecast danas = new todayForecast();
+                try { 
                 string url = string.Format($"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=4c11edcd1fd895eb8e55e2e57be65222&units=metric");
                 var json = web.DownloadString(url);
 
@@ -42,13 +45,18 @@ namespace zadaca5
 
                 string url2 = string.Format($"https://api.openweathermap.org/data/2.5/onecall?lat={tmp.coord.lat}&lon={tmp.coord.lon}&exclude=minutely,hourly&cnt=4&appid=4c11edcd1fd895eb8e55e2e57be65222&units=metric&lang=hr");
                 var jsonforecast = web.DownloadString(url2);
-                var forecast = JsonConvert.DeserializeObject<WeatherForecast>(jsonforecast);
+                forecast = JsonConvert.DeserializeObject<WeatherForecast>(jsonforecast);
 
 
                 string url3 = string.Format($"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid=4c11edcd1fd895eb8e55e2e57be65222&units=metric&lang=hr&cnt=8");
                 var jsonDanas = web.DownloadString(url3);
-                var danas = JsonConvert.DeserializeObject<todayForecast>(jsonDanas);
-
+                danas = JsonConvert.DeserializeObject<todayForecast>(jsonDanas);
+                }
+                catch(Exception e)
+                {
+                    MessageBox.Show("Pogresan unos grada", "Greska unosa");
+                    return;
+                }
                 var culture = new System.Globalization.CultureInfo("hr-HR");
                 //Label1.Text = $"{forecast.current.temp}";
 
